@@ -113,7 +113,7 @@
             display: block;
         }
 
-        .toc {
+        .spis-tresci {
             border: 1px solid #a2a9b1;
             background-color: #f8f9fa;
             padding: 15px;
@@ -121,7 +121,7 @@
             margin-bottom: 20px;
         }
 
-        .toc h3 {
+        .spis-tresci h3 {
             margin-top: 0;
         }
 
@@ -140,25 +140,25 @@
         }
 
         .seal-image {
-    width: 100%;
-    display: block;
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
+            width: 100%;
+            display: block;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+     }
 
-.seal-image:hover {
-    transform: scale(1.1);
-}
+        .seal-image:hover {
+            transform: scale(1.1);
+        }
 
-.logo-link {
-    text-decoration: none;
-}
+        .logo-link {
+            text-decoration: none;
+    }
 
-.logo-link h1 {
-    cursor: pointer;
-    transition: transform 0.2s ease;
-}
+        .logo-link h1 {
+            cursor: pointer;
+            transition: transform 0.2s ease;
+    }
 
-.logo-link h1:hover {
-    transform: scale(1.05);
-}
+        .logo-link h1:hover {
+            transform: scale(1.05);
+    }
