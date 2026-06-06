@@ -1,33 +1,293 @@
 <!DOCTYPE html>
-<html>
-    <head>
-    <title> Moja strona :3</title>
+<head>
     <meta charset="utf-8">
- 
-    </head>
+    <title>Fokopedia</title>
+     <link rel="icon" type="image/x-icon" href="icon.png">
 
-    <body>
+    <style>
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #420e0e;
+        }
 
-        <header>
-            <h1>Strona pierwsza hihi</h1>
-        </header>
-            <p><b> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta optio, veritatis odit nihil eos recusandae beatae sit laboriosam praesentium, <br> sint accusantium adipisci dolore dolorum voluptatibus, quos earum consequatur modi repudiandae.</b></p>
-        <img src="hachi.jpg" alt="hachiware">
-        <br>
-        <img src="https://media.tenor.com/gaNDIDxW7s4AAAAM/hachiware-hachi-ware.gif" alt="hachiware znowu znowu">
-            <footer> 
-
-        </footer>
-           <style>
-             body {
-            background-image: url('meowl.png');
+        header {
+            background-color: #ffffff;
+            border-bottom: 1px solid #887f82;
+            padding: 15px;
+            text-align: center;
         }
 
         h1 {
-         display: table; 
-         margin: 0px auto 0px auto; 
-         padding:5px;font-size:72px;background-color:rgb(228, 86, 133);color:#ffffff; font-family: "papyrus";
+            margin: 0;
+            font-size: 48px;
+            color: #2f3b99;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 18px;
+            margin: 15px;
+        }
+
+        .container {
+            display: flex;
+            max-width: 1400px;
+            margin: auto;
+        }
+
+        .sidebar {
+            width: 220px;
+            background-color: #f8f9fa;
+            border-right: 1px solid #a2a9b1;
+            padding: 20px;
+        }
+
+        .sidebar h3 {
+            margin-top: 0;
+        }
+
+        .sidebar ul {
+            padding-left: 20px;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: #2f3b99;
+        }
+
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            flex: 1;
+            padding: 25px;
+            background-color: white;
+        }
+
+        .article-title {
+            font-size: 38px;
+            border-bottom: 2px solid #a2a9b1;
+            padding-bottom: 10px;
+        }
+
+        .infobox {
+            float: right;
+            width: 280px;
+            margin: 0 0 20px 20px;
+            border: 1px solid #a2a9b1;
+            background-color: #f8f9fa;
+            font-size: 14px;
+        }
+
+        .infobox th {
+            background-color: #cfe3ff;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .infobox td {
+            padding: 8px;
+            border-top: 1px solid #ddd;
+        }
+
+        .seal-image {
+            width: 100%;
+            display: block;
+        }
+
+        .toc {
+            border: 1px solid #a2a9b1;
+            background-color: #f8f9fa;
+            padding: 15px;
+            width: 300px;
+            margin-bottom: 20px;
+        }
+
+        .toc h3 {
+            margin-top: 0;
+        }
+
+        h2 {
+            border-bottom: 1px solid #a2a9b1;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-top: 1px solid #a2a9b1;
+            margin-top: 30px;
+        }
+
+        .seal-image {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+    cursor: pointer;
 }
-            </style> 
-    </body>
+
+.seal-image:hover {
+    transform: scale(1.1);
+}
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1><i>Fokopedia</i></h1>
+</header>
+
+<p class="subtitle">
+    <strong>Witaj na Fokopedii! Stronie poświęconej fokom i wszystkim, co z nimi związane! :3</strong>
+</p>
+
+<div class="container">
+
+    <aside class="sidebar">
+        <h3>Nawigacja</h3>
+        <ul>
+            <li><a href="#czym_są_foki?">Czym są foki?</a></li>
+            <li><a href="#budowa">Budowa</a></li>
+            <li><a href="#gatunki">Gatunki</a></li>
+            <li><a href="#srodowisko">Środowisko</a></li>
+            <li><a href="#odzywianie">Odżywianie</a></li>
+            <li><a href="#ciekawostki">Ciekawostki</a></li>
+        </ul>
+    </aside>
+
+    <main class="content">
+
+        <h1 class="article-title">Foka</h1>
+
+        <table class="infobox">
+            <tr>
+                <th colspan="2">Foka</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <img src="seal.jpg" alt="Foka" class="seal-image">
+                </td>
+            </tr>
+            <tr>
+                <td><b>Królestwo</b></td>
+                <td>Zwierzęta</td>
+            </tr>
+            <tr>
+                <td><b>Typ</b></td>
+                <td>Strunowce</td>
+            </tr>
+            <tr>
+                <td><b>Gromada</b></td>
+                <td>Ssaki</td>
+            </tr>
+            <tr>
+                <td><b>Rząd</b></td>
+                <td>Drapieżne</td>
+            </tr>
+            <tr>
+                <td><b>Rodzina</b></td>
+                <td>Fokowate</td>
+            </tr>
+        </table>
+
+        <div class="toc">
+            <h3>Spis treści</h3>
+            <ol>
+                <li><a href="#czym_są_foki?">Czym są foki?</a></li>
+                <li><a href="#budowa">Budowa</a></li>
+                <li><a href="#gatunki">Gatunki</a></li>
+                <li><a href="#srodowisko">Środowisko życia</a></li>
+                <li><a href="#odzywianie">Odżywianie</a></li>
+                <li><a href="#ciekawostki">Ciekawostki</a></li>
+            </ol>
+        </div>
+
+        <section id="czym_są_foki?">
+            <h2>Czym są foki?</h2>
+            <p>
+                Foki to morskie ssaki należące do rodziny fokowatych. Są doskonale przystosowane do życia 
+                w wodzie dzięki opływowemu ciału i płetwom, które pomagają im sprawnie pływać.
+                Oddychają powietrzem atmosferycznym, dlatego regularnie wynurzają się na powierzchnię.
+                Większość gatunków żyje w chłodnych wodach oceanów i mórz półkuli północnej oraz południowej. 
+                Foki odżywiają się głównie rybami, skorupiakami i głowonogami. Gruba warstwa tłuszczu pod skórą
+                chroni je przed utratą ciepła w zimnych wodach.
+
+            </p>
+        </section>
+        <section id="budowa">
+            <h2>Budowa</h2>
+            <p>
+                Foki mają opływowe, wrzecionowate ciało, które zmniejsza opór wody i
+                umożliwia sprawne pływanie. Ich kończyny są przekształcone w płetwy,
+                dzięki którym mogą szybko poruszać się pod wodą. Pod skórą znajduje się
+                gruba warstwa tłuszczu chroniąca przed zimnem oraz magazynująca energię.
+                Foki posiadają duże oczy przystosowane do widzenia pod wodą oraz
+                wrażliwe wibrysy (wąsy), które pomagają wykrywać ruch i położenie ofiary.
+                Ciało fok pokrywa krótka, gęsta sierść zapewniająca dodatkową ochronę
+                przed niskimi temperaturami.
+             </p>
+        </section>
+
+        <section id="gatunki">
+            <h2>Gatunki</h2>
+            <ul>
+                <li>Foka szara</li>
+                <li>Foka pospolita</li>
+                <li>Foka obrączkowana</li>
+                <li>Foka grenlandzka</li>
+                <li>Foka kapturowa</li>
+                <li>Foka waddella</li>
+                <li>Foka krabojad</li>
+            </ul>
+        </section>
+
+        <section id="srodowisko">
+            <h2>Środowisko życia</h2>
+            <p>
+                Foki zamieszkują głównie środowiska morskie i przybrzeżne na całym świecie. 
+                Najczęściej występują w chłodnych wodach oceanów i mórz, takich jak Arktyka, 
+                Antarktyda czy Morze Bałtyckie. Większość czasu spędzają w wodzie, gdzie polują 
+                na ryby i inne organizmy morskie. Na ląd lub pokryte lodem wybrzeża wychodzą, 
+                aby odpoczywać, rozmnażać się i wychowywać młode. Dzięki grubej warstwie tłuszczu
+                są dobrze przystosowane do życia w zimnym klimacie.
+
+        </section>
+
+        <section id="odzywianie">
+            <h2>Odżywianie</h2>
+            <p>
+                Foki są drapieżnikami i żywią się głównie rybami, skorupiakami oraz głowonogami, takimi jak kałamarnice. 
+                Zdobywają pokarm podczas nurkowania, wykorzystując doskonały wzrok i wrażliwe wąsy pomagające wykrywać 
+                ruch ofiary w wodzie. Dieta fok może różnić się w zależności od gatunku oraz miejsca występowania. 
+                Aby zdobyć wystarczającą ilość energii, dorosłe foki potrafią zjeść kilka kilogramów pokarmu dziennie.
+
+            </p>
+        </section>
+
+        <section id="ciekawostki">
+            <h2>Ciekawostki</h2>
+            <ul>
+                <li>Foki mogą nurkować na głębokość kilkuset metrów.</li>
+                <li>Posiadają grubą warstwę tłuszczu chroniącą przed zimnem.</li>
+                <li>Młode foki nazywane są szczeniętami.</li>
+                <li>Foka szara występuje również w Morzu Bałtyckim.</li>
+            </ul>
+        </section>
+
+    </main>
+
+</div>
+
+<footer>
+    © 2025-2026 Fokopedia – Gabriela Kłoda s35694
+</footer>
+
+</body>
 </html>
