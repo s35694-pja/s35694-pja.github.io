@@ -101,6 +101,7 @@
         .infobox th {
             background-color: #dbf4f5;
             padding: 8px;
+            font-size: 20px;
             text-align: center;
         }
 
@@ -118,7 +119,7 @@
             border: 1px solid #a2a9b1;
             background-color: #f8f9fa;
             padding: 15px;
-            width: 300px;
+            width: 200px;
             margin-bottom: 20px;
         }
 
@@ -143,12 +144,6 @@
         .seal-image {
             width: 100%;
             display: block;
-            transition: transform 0.3s ease;
-            cursor: pointer;
-     }
-
-        .seal-image:hover {
-            transform: scale(1.1);
         }
 
         .logo-link {
@@ -157,17 +152,14 @@
 
         .logo-link h1 {
             cursor: pointer;
-            transition: transform 0.2s ease;
-    }
-
-        .logo-link h1:hover {
-            transform: scale(1.05);
+            font-style: none;
     }
 
         div.gallery {
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        flex-direction: row;
+        justify-content: center;
     }
 
     div.gallery-item {
@@ -178,6 +170,8 @@
 
     div.gallery-item:hover {
         border: 1.5px solid #4454d6;
+        transform: scale(1.05);
+        transition: transform 0.2s ease;
     }
 
     div.gallery-item img {
