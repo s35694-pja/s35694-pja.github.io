@@ -1,147 +1,18 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <title>Fokopedia</title>
      <link rel="icon" type="image/x-icon" href="icon.png">
 
-    <style>
-        
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-            color: #420e0e;
-        }
-
-        header {
-            background-color: #ffffff;
-            border-bottom: 1px solid #887f82;
-            padding: 15px;
-            text-align: center;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 48px;
-            color: #2f3b99;
-        }
-
-        .subtitle {
-            text-align: center;
-            font-size: 18px;
-            margin: 15px;
-        }
-
-        .container {
-            display: flex;
-            max-width: 1400px;
-            margin: auto;
-        }
-
-        .sidebar {
-            width: 220px;
-            background-color: #f8f9fa;
-            border-right: 1px solid #a2a9b1;
-            padding: 20px;
-        }
-
-        .sidebar h3 {
-            margin-top: 0;
-        }
-
-        .sidebar ul {
-            padding-left: 20px;
-        }
-
-        .sidebar a {
-            text-decoration: none;
-            color: #2f3b99;
-        }
-
-        .sidebar a:hover {
-            text-decoration: underline;
-        }
-
-        .content {
-            flex: 1;
-            padding: 25px;
-            background-color: white;
-        }
-
-        .article-title {
-            font-size: 38px;
-            border-bottom: 2px solid #a2a9b1;
-            padding-bottom: 10px;
-        }
-
-        .infobox {
-            float: right;
-            width: 280px;
-            margin: 0 0 20px 20px;
-            border: 1px solid #a2a9b1;
-            background-color: #f8f9fa;
-            font-size: 14px;
-        }
-
-        .infobox th {
-            background-color: #cfe3ff;
-            padding: 8px;
-            text-align: center;
-        }
-
-        .infobox td {
-            padding: 8px;
-            border-top: 1px solid #ddd;
-        }
-
-        .seal-image {
-            width: 100%;
-            display: block;
-        }
-
-        .toc {
-            border: 1px solid #a2a9b1;
-            background-color: #f8f9fa;
-            padding: 15px;
-            width: 300px;
-            margin-bottom: 20px;
-        }
-
-        .toc h3 {
-            margin-top: 0;
-        }
-
-        h2 {
-            border-bottom: 1px solid #a2a9b1;
-            padding-bottom: 5px;
-            margin-top: 40px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #f8f9fa;
-            border-top: 1px solid #a2a9b1;
-            margin-top: 30px;
-        }
-
-        .seal-image {
-    width: 100%;
-    display: block;
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
-
-.seal-image:hover {
-    transform: scale(1.1);
-}
-    </style>
 </head>
 
 <body>
 
 <header>
-    <h1><i>Fokopedia</i></h1>
+     <a href="index.html" class="logo-link">
+        <h1><i>Fokopedia</i></h1>
+    </a>
 </header>
 
 <p class="subtitle">
@@ -151,15 +22,20 @@
 <div class="container">
 
     <aside class="sidebar">
-        <h3>Nawigacja</h3>
-        <ul>
-            <li><a href="#czym_są_foki?">Czym są foki?</a></li>
-            <li><a href="#budowa">Budowa</a></li>
-            <li><a href="#gatunki">Gatunki</a></li>
-            <li><a href="#srodowisko">Środowisko</a></li>
-            <li><a href="#odzywianie">Odżywianie</a></li>
-            <li><a href="#ciekawostki">Ciekawostki</a></li>
-        </ul>
+        <h2>Nawigacja</h2>
+    <div class="nawi-buttons">
+        <button onclick="location.href='podstrona1.html'">
+            Podstrona 1
+        </button>
+
+        <button onclick="location.href='podstrona2.html'">
+            Podstrona 2
+        </button>
+
+        <button onclick="location.href='podstrona3.html'">
+            Podstrona 3
+        </button>
+</div>
     </aside>
 
     <main class="content">
@@ -202,7 +78,6 @@
             <ol>
                 <li><a href="#czym_są_foki?">Czym są foki?</a></li>
                 <li><a href="#budowa">Budowa</a></li>
-                <li><a href="#gatunki">Gatunki</a></li>
                 <li><a href="#srodowisko">Środowisko życia</a></li>
                 <li><a href="#odzywianie">Odżywianie</a></li>
                 <li><a href="#ciekawostki">Ciekawostki</a></li>
@@ -235,18 +110,6 @@
              </p>
         </section>
 
-        <section id="gatunki">
-            <h2>Gatunki</h2>
-            <ul>
-                <li>Foka szara</li>
-                <li>Foka pospolita</li>
-                <li>Foka obrączkowana</li>
-                <li>Foka grenlandzka</li>
-                <li>Foka kapturowa</li>
-                <li>Foka waddella</li>
-                <li>Foka krabojad</li>
-            </ul>
-        </section>
 
         <section id="srodowisko">
             <h2>Środowisko życia</h2>
@@ -286,7 +149,7 @@
 </div>
 
 <footer>
-    © 2025-2026 Fokopedia – Gabriela Kłoda s35694
+    © 2025-2026 Fokopedia ♥ Gabriela Kłoda s35694
 </footer>
 
 </body>
