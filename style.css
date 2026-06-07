@@ -31,7 +31,7 @@
         }
 
         .sidebar {
-            width: 220px;
+            width: 300px;
             background-color: #f8f9fa;
             border-right: 1px solid #a2a9b1;
             padding: 20px;
@@ -54,7 +54,7 @@
         .nawi-buttons {
             position: sticky;
             top: 10px;
-             display: flex;
+            display: flex;
             flex-direction: column;
             gap: 10px;
     }
@@ -113,6 +113,11 @@
         }
 
         .seal-image {
+            width: 100%;
+            display: block;
+        }
+
+         .author-image {
             width: 100%;
             display: block;
         }
