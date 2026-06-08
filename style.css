@@ -48,9 +48,6 @@
             margin: 10px 0;
             transition: 0.3s;
         }
-        .sidebar a:hover {
-            text-decoration: underline;
-        }
         .nawi-buttons {
             position: sticky;
             top: 10px;
